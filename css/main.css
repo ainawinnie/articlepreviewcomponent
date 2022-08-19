@@ -1,0 +1,73 @@
+.container {
+    width: 60em;
+    height: 20em;
+
+    margin: 15em 10em;
+    border-radius: 1em;
+
+    background-color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.lateral-image img{
+    height: 20em;
+
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.information {
+    margin: 2em; 
+    padding: 2em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.information h1 {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 1.2em;
+
+    color: var(--veryDarkGrayishBlue);
+
+    margin-bottom: 1em;
+}
+
+.information .description {
+    font-weight: 500;
+    font-size: 1em;
+
+    color: var(--veryDarkGrayishBlue);
+
+    margin-bottom: 1em;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-img img {
+    width: 4em;
+    border-radius: 2em;
+}
+
+.profile-information {
+    margin-left: -10em;
+}
+
+.share-options {
+    display: none;
+}
+
+.share img {
+    width: 2em;
+    border: none;
+    border-radius: 1em;
+}

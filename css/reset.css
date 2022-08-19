@@ -1,0 +1,21 @@
+:root {
+    --veryDarkGrayishBlue: hsl(217, 19%, 35%); 
+    --desaturatedDarkBlue: hsl(214, 17%, 51%);
+    --grayishBlue: hsl(212, 23%, 69%);
+    --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background-color: var(--lightGrayishBlue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
