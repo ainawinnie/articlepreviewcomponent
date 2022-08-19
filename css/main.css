@@ -62,12 +62,40 @@
     margin-left: -10em;
 }
 
+.profile-information .profile-name {
+    font-weight: 700;
+    font-size: 0.9em;
+    
+    padding: 0.1em;
+
+    color: var(--veryDarkGrayishBlue);
+}
+
+.date {
+    font-weight: 500;
+    font-size: 0.8em;
+
+    padding: 0.1em;
+    
+    color: var(--desaturatedDarkBlue);
+
+}
+
 .share-options {
     display: none;
 }
 
 .share img {
-    width: 2em;
+    width: 1.5em;
     border: none;
-    border-radius: 1em;
+}
+
+.profile button {
+    width: 3em;
+    height: 3em;
+
+    border-color: var(--desaturatedDarkBlue);
+    border-radius: 3em;
+
+    background-color: var(--lightGrayishBlue);
 }
