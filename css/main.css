@@ -113,3 +113,7 @@
 
     background-color: var(--lightGrayishBlue);
 }
+
+.profile .share:hover{
+    background-color: var(--veryDarkGrayishBlue);
+}
