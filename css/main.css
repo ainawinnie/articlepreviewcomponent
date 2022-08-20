@@ -82,7 +82,7 @@
 }
 
 .share-box {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     position: absolute;
@@ -110,6 +110,11 @@
 .share-options button img {
     width: 1.5em;
 }
+
+.share-options button:hover {
+    cursor: pointer;
+}
+
 
 .share img {
     width: 1.5em;
@@ -142,4 +147,19 @@
 .profile .share:hover{
     background-color: var(--veryDarkGrayishBlue);
     cursor: pointer;
+}
+
+.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+.share-selected {
+    width: 3em;
+    height: 3em;
+
+    border-color: var(--desaturatedDarkBlue);
+    border-radius: 3em;
+
+    background-color: var(--veryDarkGrayishBlue);
 }
