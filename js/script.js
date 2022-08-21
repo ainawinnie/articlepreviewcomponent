@@ -6,7 +6,7 @@ shareButton.addEventListener('click', openShare);
 
 
 function openShare(e) {
-    shareBox.classList.toggle('share-box');
+   /* shareBox.classList.toggle('share-box');*/
     shareBox.classList.toggle('share-area');
     shareButton.classList.toggle('share');
     shareButton.classList.toggle('share-selected');

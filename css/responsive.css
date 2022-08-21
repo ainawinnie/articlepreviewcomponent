@@ -1,0 +1,90 @@
+@media screen and (max-width: 900px) {
+    .container {
+        width: 25em;
+        height: 75vh;
+    
+        margin: 5em 10em;
+        border-radius: 1em;
+    
+        background-color: #FFF;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .profile-information {
+        margin-left: 0em;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .lateral-image img{
+        width: 100%;
+        height: 15em;
+    
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+        border-bottom-left-radius: 0em;
+    }
+
+   
+    .share-area {
+        display: none;
+    }
+
+    .share-options {
+        display: flex;
+        align-items: center;    
+    
+        margin-top: 8em;
+        margin-left: -22em;
+        padding-right: 6em;
+
+        width: 25em;
+        height: 10vh;
+        
+    }
+
+    .profile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .profile-information {
+        margin-left: 2em;
+    }
+
+    .profile .share {
+        width: 3em;
+        height: 3em;
+    
+        border-color: var(--desaturatedDarkBlue);
+        border-radius: 3em;
+    
+        background-color: var(--lightGrayishBlue);
+        
+        position: absolute;
+        margin-left: 16em;
+        z-index: 1000;
+
+    }
+
+    .share-selected {
+        width: 3em;
+        height: 3em;
+    
+        border-color: var(--desaturatedDarkBlue);
+        border-radius: 3em;
+    
+        background-color: var(--lightGrayishBlue);
+        
+        position: absolute;
+        margin-left: 16em;
+        z-index: 1000;
+    }
+
+}
